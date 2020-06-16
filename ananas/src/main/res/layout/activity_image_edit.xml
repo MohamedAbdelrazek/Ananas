@@ -1,6 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layoutDirection="ltr"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -8,7 +9,8 @@
         android:layout_width="fill_parent"
         android:layout_height="55dp"
         android:layout_alignParentTop="true"
-        android:background="#333333">
+        android:background="#333333"
+        android:layoutDirection="ltr">
 
         <ImageView
             android:id="@+id/back_btn"
@@ -101,7 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:visibility="gone"/>
+                android:visibility="gone" />
 
         </iamutkarshtiwari.github.io.ananas.editimage.layout.ZoomLayout>
 
@@ -148,9 +150,9 @@
         android:layout_above="@id/bottom_gallery"
         android:layout_alignParentRight="true"
         android:orientation="horizontal"
-        android:paddingBottom="16dp"
         android:paddingLeft="8dp"
-        android:paddingRight="10dp">
+        android:paddingRight="10dp"
+        android:paddingBottom="16dp">
 
         <ImageView
             android:id="@+id/undo_btn"
